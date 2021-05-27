@@ -1,0 +1,21 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border: 1px solid lightgray;
+    height: 200px;
+    width: 200px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightgray;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}

@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    border-radius: 3px;
+    border: 0.5px solid lightgrey;
+    flex-direction: column;
+}
+
+body {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    flex: 1;
+    padding: 10px;
+}
+
+.header h4 {
+    margin: 0px;
+}
+
+.footer {
+    flex: 1;
+}
+
+.time {
+    flex: 2;
+    border-top: 0.5px solid lightgrey;
+    border-bottom: 0.5px solid lightgrey;
+    padding: 15px;
+}
+/* always clockwise bro */
+.but {
+    margin: 10px 0px 10px 10px; 
+    font-weight: bold;
+    border: none;
+    font-size: 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+    width: 60px;
+}
+
+.but:hover {
+    opacity: 70%;
+}
+
+.startBut {
+    color: white;
+    background-color: #1a73e8;
+}
+
+.resetBut {
+    color: #1a73e8;
+    background-color: lightgrey;
+}

@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 250px;
+    width: 250px;
+    background-color: grey;
+    border: 1px solid grey;
+    grid-gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+.square {
+    border: 1px solid black;
+    background-color: lightgray;
+    height: 50px;
+    width: 50px;
+}
+
+#reset {
+    /* height: 0px; */
+    font-size: smaller;
+}
+
+h6 {
+    margin: 0px;
+}
