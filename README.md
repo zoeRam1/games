@@ -1,5 +1,5 @@
 # Games
-A series of simple games/projects I made using vanillaJS !!!
+A series of simple games I made using vanillaJS
 
 ## Games List
   * 2048
