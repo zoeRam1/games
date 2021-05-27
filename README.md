@@ -1,7 +1,7 @@
 # Games
 A series of simple games/projects I made using vanillaJS !!!
 
-## Games List:
+## Games List
   * 2048
   * Slide Puzzle
   * Asteroids
